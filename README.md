@@ -13,4 +13,4 @@ Assignment-10: Custom built REST API that no longer relies on the url above. Cre
 Assignment-11:  Designed and implemented a database using an SQL Server Database. Removed the static variables.
 
 
-Assignment-12: Removed the dependency on the IIS Express web server and instead receives and sends back HTTP requests.
+Assignment-12: Removed the dependency on the IIS Express web server and instead receives and sends back HTTP requests via sockets.
