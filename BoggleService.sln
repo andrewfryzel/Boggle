@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BoggleServicePieces", "BoggleServicePieces", "{DE1ABB99-DA8E-4D0F-A400-0F3E69D73FFE}"
+	ProjectSection(SolutionItems) = preProject
+		api.html = api.html
+		BoggleBoard.cs = BoggleBoard.cs
+		dictionary.txt = dictionary.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoggleServiceRemoteTests", "BoggleServiceTests\BoggleServiceRemoteTests.csproj", "{71936E2C-E15E-44DE-ABFF-B69805FAE163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoggleServiceLocalTests", "BoggleServiceLocalTests\BoggleServiceLocalTests\BoggleServiceLocalTests.csproj", "{AF37B11A-2CEB-4963-9820-A5D021022D1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBoggleService", "MyBoggleService\MyBoggleService.csproj", "{DDB2A361-F033-4166-929F-CF3108D9892F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF71F4A1-45AC-41C8-A287-248DB6CC2BEA}"
+	ProjectSection(SolutionItems) = preProject
+		StringSocket.dll = StringSocket.dll
+		StringSocket.XML = StringSocket.XML
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71936E2C-E15E-44DE-ABFF-B69805FAE163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71936E2C-E15E-44DE-ABFF-B69805FAE163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71936E2C-E15E-44DE-ABFF-B69805FAE163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71936E2C-E15E-44DE-ABFF-B69805FAE163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF37B11A-2CEB-4963-9820-A5D021022D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF37B11A-2CEB-4963-9820-A5D021022D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF37B11A-2CEB-4963-9820-A5D021022D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF37B11A-2CEB-4963-9820-A5D021022D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB2A361-F033-4166-929F-CF3108D9892F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB2A361-F033-4166-929F-CF3108D9892F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB2A361-F033-4166-929F-CF3108D9892F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB2A361-F033-4166-929F-CF3108D9892F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E7CA610-4146-427C-8B4F-E0AE994EA234}
+	EndGlobalSection
+EndGlobal
