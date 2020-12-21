@@ -1,6 +1,6 @@
 # Boggle
 
-This repository contains four branches, each a part of the whole Boggle game. The branches drop-down menu can be found above on the left by clicking "Branch: master".
+This repository contains four branches, each a part of the whole Boggle game. The branches drop-down menu can be found above on the left by clicking "Branch: master". Assignment 12 Represents the complete project.
 
 
 **Assignment-9:** Front-end GUI and back-end logic. The logic uses a MVC (Model, View, Controller) architecture that allows users to connect to the game via a REST API Service.
